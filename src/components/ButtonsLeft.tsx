@@ -1,43 +1,6 @@
-// import { Button } from "@mui/material";
-// import { select } from "../store/animalSlice";
-// import { useAppDispatch, useAppSelector } from "../store/hooks";
-
 import { Button } from "@mui/material";
 import { select } from "../store/animalSlice";
 import { useAppSelector, useAppDispatch } from "../store/hooks";
-
-// const ButtonsLeft = () => {
-//   const dispatch = useAppDispatch();
-//   return (
-//     <div>
-//       <Button
-//         variant="contained"
-//         onClick={() => dispatch(select("Dog"))}
-//         sx={{ backgroundColor: "red" }}
-//       >
-//         Dog
-//       </Button>
-
-//       <Button
-//         variant="contained"
-//         onClick={() => dispatch(select("Wolf"))}
-//         sx={{ backgroundColor: "blue" }}
-//       >
-//         Wolf
-//       </Button>
-
-//       <Button
-//         variant="contained"
-//         onClick={() => dispatch(select("Fox"))}
-//         sx={{ backgroundColor: "orange" }}
-//       >
-//         Fox
-//       </Button>
-//     </div>
-//   );
-// };
-
-// export default ButtonsLeft;
 
 const ButtonsLeft = () => {
   const color = useAppSelector((store) => store.animal.color);

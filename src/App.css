@@ -13,11 +13,13 @@ header {
 .buttons_left {
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
 }
 
 .buttons_right {
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
 }
 
 .buttons {
