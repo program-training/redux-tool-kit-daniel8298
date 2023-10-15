@@ -1,12 +1,8 @@
-import './App.css'
+import "./App.css";
+import Page from "./components/Page";
 
 function App() {
-
-  return (
-    <>
-      <div>hello !</div>
-    </>
-  )
+  return <Page />;
 }
 
-export default App
+export default App;
